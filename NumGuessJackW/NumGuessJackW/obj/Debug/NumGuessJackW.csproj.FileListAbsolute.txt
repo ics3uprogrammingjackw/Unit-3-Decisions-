@@ -1,0 +1,9 @@
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\bin\Debug\NumGuessJackW.exe.config
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\bin\Debug\NumGuessJackW.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\bin\Debug\NumGuessJackW.pdb
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.csprojResolveAssemblyReference.cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.frmNumGuess.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.Properties.Resources.resources
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.csproj.GenerateResource.Cache
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.exe
+N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.pdb
