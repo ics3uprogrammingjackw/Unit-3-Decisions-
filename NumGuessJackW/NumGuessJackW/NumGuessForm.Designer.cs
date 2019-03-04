@@ -84,7 +84,7 @@
             this.Controls.Add(this.txtGuess);
             this.Controls.Add(this.lblQuestion);
             this.Name = "frmNumGuess";
-            this.Text = "Form1";
+            this.Text = "Number Guess ny Jack W";
             this.Load += new System.EventHandler(this.frmNumGuess_Load);
             ((System.ComponentModel.ISupportInitialize)(this.picCheckmarkX)).EndInit();
             this.ResumeLayout(false);

@@ -14,6 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace NumGuessJackW
 {
@@ -44,14 +45,16 @@ namespace NumGuessJackW
             {
                 this.picCheckmarkX.Image = Properties.Resources.checkmark;
                 picCheckmarkX.Show();
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(@"c:\Correct Answer Sound Effect.mp3");
-                player.Play();
+                SoundPlayer corrrect = new SoundPlayer(@"nice-work.wav");
+                corrrect.Play();
             }
 
             else
             {
                 this.picCheckmarkX.Image = Properties.Resources.red_x;
                 picCheckmarkX.Show();
+                SoundPlayer incorrrect = new SoundPlayer(@"maybe-next-time.wav");
+                incorrrect.Play();
             }
 
 
