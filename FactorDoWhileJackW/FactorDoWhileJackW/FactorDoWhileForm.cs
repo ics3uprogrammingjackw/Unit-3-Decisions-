@@ -38,6 +38,7 @@ namespace FactorDoWhileJackW
 
             do
             {
+
                 factorialCounter = factorialCounter + 1;
 
                 lstCounter.Items.Add(factorialCounter);
@@ -45,9 +46,12 @@ namespace FactorDoWhileJackW
                 factorialAnswer = factorialCounter * factorialAnswer;
 
 
-            } while (factorialCounter <= factorialNumber);
+
+            } while (factorialCounter != factorialNumber);
 
             lblAnswer.Text = txtInput.Text + "! = " + Convert.ToString(factorialAnswer);
+
+
         }
     }
 }
