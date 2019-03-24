@@ -1,4 +1,12 @@
-﻿using System;
+﻿/*
+ * Created by: Jack Wright
+ * Created on: 24-March-2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #20 - Factorial Do While
+ * This program calculates the factorial of a user input using a do... while loop.
+*/
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
