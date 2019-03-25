@@ -1,10 +1,11 @@
 ﻿/*
  * Created by: Jack Wright
- * Created on: 21-March-2019
+ * Created on: 24-March-2019
  * Created for: ICS3U Programming
- * Daily Assignment – Day #20 - Factorial do while
- * This program calculates the factorial of a given number with a do while loop
+ * Daily Assignment – Day #20 - Factorial Do While
+ * This program calculates the factorial of a user input using a do... while loop.
 */
+
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -45,6 +46,7 @@ namespace FactorDoWhileJackW
 
             do
             {
+
                 factorialCounter = factorialCounter + 1;
 
                 lstCounter.Items.Add(factorialCounter);
@@ -52,9 +54,12 @@ namespace FactorDoWhileJackW
                 factorialAnswer = factorialCounter * factorialAnswer;
 
 
+
             } while (factorialCounter != factorialNumber);
 
             lblAnswer.Text = txtInput.Text + "! = " + Convert.ToString(factorialAnswer);
+
+
         }
     }
 }
