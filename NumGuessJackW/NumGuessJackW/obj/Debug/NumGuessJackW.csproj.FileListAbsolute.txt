@@ -7,3 +7,13 @@ N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Un
 N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.csproj.GenerateResource.Cache
 N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.exe
 N:\StuShare\Semester 2 - Winter 2019\ICS3U Programming\Wright, Jack (s427624)\Unit 3 (Decisions)\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.pdb
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\bin\Debug\NumGuessJackW.exe.config
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\bin\Debug\NumGuessJackW.exe
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\bin\Debug\NumGuessJackW.pdb
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.csprojAssemblyReference.cache
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.frmNumGuess.resources
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.Properties.Resources.resources
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.csproj.GenerateResource.cache
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.csproj.CoreCompileInputs.cache
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.exe
+C:\Users\Jack Wright\Documents\ICS3U Programming\Unit-3-Decisions-\NumGuessJackW\NumGuessJackW\obj\Debug\NumGuessJackW.pdb
