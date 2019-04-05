@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Created by: Jack Wright
+ * Created on: 25-02-2019
+ * Created for: ICS3U Programming
+ * Daily Assignment – Day #18 - Rock Paper Scissors 
+ * This program lets the user play a game of rock paper scissors against the computer.
+*/
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +19,9 @@ namespace RockPapSciJackW
 {
     public partial class frmRockPaperScissors : Form
     {
-        //Declaring global variables
+        //Declaring global constants
         const int MIN_VALUE = 1;
-        const int MAX_VALUE = 10;
+        const int MAX_VALUE = 3;
         Random randomNumberGenerator;
 
         public frmRockPaperScissors()
@@ -64,6 +71,62 @@ namespace RockPapSciJackW
                 this.radCompScissors.Checked = true;
             }
 
+            if (computerChoice == ROCK)
+            {
+                if (playerChoice == ROCK)
+                {
+                    lblWinner.Text = "Its a tie!";
+                }
+                else if (playerChoice == PAPER)
+                {
+                    lblWinner.Text = "You win";
+                }
+
+                else if (playerChoice == SCISSORS)
+                {
+                    lblWinner.Text = "You lose";
+                }
+            }
+
+            if (computerChoice == PAPER)
+            {
+                if (playerChoice == PAPER)
+                {
+                    lblWinner.Text = "Its a tie!";
+                }
+                else if (playerChoice == SCISSORS)
+                {
+                    lblWinner.Text = "You win";
+                }
+
+                else if (playerChoice == ROCK)
+                {
+                    lblWinner.Text = "You lose";
+                }
+            }
+
+            if (computerChoice == SCISSORS)
+            {
+                if (playerChoice == SCISSORS)
+                {
+                    lblWinner.Text = "Its a tie!";
+                }
+                else if (playerChoice == ROCK)
+                {
+                    lblWinner.Text = "You win";
+                }
+
+                else if (playerChoice == PAPER)
+                {
+                    lblWinner.Text = "You lose";
+                }
+            }
+
+
+        }
+
+        private void frmRockPaperScissors_Load(object sender, EventArgs e)
+        {
 
         }
     }

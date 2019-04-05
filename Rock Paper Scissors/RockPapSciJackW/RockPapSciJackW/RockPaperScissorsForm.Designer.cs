@@ -29,15 +29,16 @@
         private void InitializeComponent()
         {
             this.grbUserChoice = new System.Windows.Forms.GroupBox();
-            this.radUserRock = new System.Windows.Forms.RadioButton();
-            this.radUserPaper = new System.Windows.Forms.RadioButton();
-            this.grbCompChoices = new System.Windows.Forms.GroupBox();
-            this.radCompRock = new System.Windows.Forms.RadioButton();
-            this.radCompPaper = new System.Windows.Forms.RadioButton();
             this.radUserScissors = new System.Windows.Forms.RadioButton();
+            this.radUserPaper = new System.Windows.Forms.RadioButton();
+            this.radUserRock = new System.Windows.Forms.RadioButton();
+            this.grbCompChoices = new System.Windows.Forms.GroupBox();
             this.radCompScissors = new System.Windows.Forms.RadioButton();
+            this.radCompPaper = new System.Windows.Forms.RadioButton();
+            this.radCompRock = new System.Windows.Forms.RadioButton();
             this.lblDecisions = new System.Windows.Forms.Label();
             this.btnPlay = new System.Windows.Forms.Button();
+            this.lblWinner = new System.Windows.Forms.Label();
             this.grbUserChoice.SuspendLayout();
             this.grbCompChoices.SuspendLayout();
             this.SuspendLayout();
@@ -54,16 +55,16 @@
             this.grbUserChoice.TabStop = false;
             this.grbUserChoice.Text = "User Choices";
             // 
-            // radUserRock
+            // radUserScissors
             // 
-            this.radUserRock.AutoSize = true;
-            this.radUserRock.Location = new System.Drawing.Point(27, 39);
-            this.radUserRock.Name = "radUserRock";
-            this.radUserRock.Size = new System.Drawing.Size(51, 17);
-            this.radUserRock.TabIndex = 0;
-            this.radUserRock.TabStop = true;
-            this.radUserRock.Text = "Rock";
-            this.radUserRock.UseVisualStyleBackColor = true;
+            this.radUserScissors.AutoSize = true;
+            this.radUserScissors.Location = new System.Drawing.Point(27, 137);
+            this.radUserScissors.Name = "radUserScissors";
+            this.radUserScissors.Size = new System.Drawing.Size(64, 17);
+            this.radUserScissors.TabIndex = 2;
+            this.radUserScissors.TabStop = true;
+            this.radUserScissors.Text = "Scissors";
+            this.radUserScissors.UseVisualStyleBackColor = true;
             // 
             // radUserPaper
             // 
@@ -75,6 +76,17 @@
             this.radUserPaper.TabStop = true;
             this.radUserPaper.Text = "Paper";
             this.radUserPaper.UseVisualStyleBackColor = true;
+            // 
+            // radUserRock
+            // 
+            this.radUserRock.AutoSize = true;
+            this.radUserRock.Location = new System.Drawing.Point(27, 39);
+            this.radUserRock.Name = "radUserRock";
+            this.radUserRock.Size = new System.Drawing.Size(51, 17);
+            this.radUserRock.TabIndex = 0;
+            this.radUserRock.TabStop = true;
+            this.radUserRock.Text = "Rock";
+            this.radUserRock.UseVisualStyleBackColor = true;
             // 
             // grbCompChoices
             // 
@@ -88,16 +100,16 @@
             this.grbCompChoices.TabStop = false;
             this.grbCompChoices.Text = "Computer Choices";
             // 
-            // radCompRock
+            // radCompScissors
             // 
-            this.radCompRock.AutoSize = true;
-            this.radCompRock.Location = new System.Drawing.Point(49, 35);
-            this.radCompRock.Name = "radCompRock";
-            this.radCompRock.Size = new System.Drawing.Size(51, 17);
-            this.radCompRock.TabIndex = 2;
-            this.radCompRock.TabStop = true;
-            this.radCompRock.Text = "Rock";
-            this.radCompRock.UseVisualStyleBackColor = true;
+            this.radCompScissors.AutoSize = true;
+            this.radCompScissors.Location = new System.Drawing.Point(49, 148);
+            this.radCompScissors.Name = "radCompScissors";
+            this.radCompScissors.Size = new System.Drawing.Size(64, 17);
+            this.radCompScissors.TabIndex = 4;
+            this.radCompScissors.TabStop = true;
+            this.radCompScissors.Text = "Scissors";
+            this.radCompScissors.UseVisualStyleBackColor = true;
             // 
             // radCompPaper
             // 
@@ -110,27 +122,16 @@
             this.radCompPaper.Text = "Paper";
             this.radCompPaper.UseVisualStyleBackColor = true;
             // 
-            // radUserScissors
+            // radCompRock
             // 
-            this.radUserScissors.AutoSize = true;
-            this.radUserScissors.Location = new System.Drawing.Point(27, 137);
-            this.radUserScissors.Name = "radUserScissors";
-            this.radUserScissors.Size = new System.Drawing.Size(64, 17);
-            this.radUserScissors.TabIndex = 2;
-            this.radUserScissors.TabStop = true;
-            this.radUserScissors.Text = "Scissors";
-            this.radUserScissors.UseVisualStyleBackColor = true;
-            // 
-            // radCompScissors
-            // 
-            this.radCompScissors.AutoSize = true;
-            this.radCompScissors.Location = new System.Drawing.Point(49, 148);
-            this.radCompScissors.Name = "radCompScissors";
-            this.radCompScissors.Size = new System.Drawing.Size(64, 17);
-            this.radCompScissors.TabIndex = 4;
-            this.radCompScissors.TabStop = true;
-            this.radCompScissors.Text = "Scissors";
-            this.radCompScissors.UseVisualStyleBackColor = true;
+            this.radCompRock.AutoSize = true;
+            this.radCompRock.Location = new System.Drawing.Point(49, 35);
+            this.radCompRock.Name = "radCompRock";
+            this.radCompRock.Size = new System.Drawing.Size(51, 17);
+            this.radCompRock.TabIndex = 2;
+            this.radCompRock.TabStop = true;
+            this.radCompRock.Text = "Rock";
+            this.radCompRock.UseVisualStyleBackColor = true;
             // 
             // lblDecisions
             // 
@@ -152,17 +153,28 @@
             this.btnPlay.UseVisualStyleBackColor = true;
             this.btnPlay.Click += new System.EventHandler(this.btnPlay_Click);
             // 
+            // lblWinner
+            // 
+            this.lblWinner.AutoSize = true;
+            this.lblWinner.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.lblWinner.Location = new System.Drawing.Point(434, 410);
+            this.lblWinner.Name = "lblWinner";
+            this.lblWinner.Size = new System.Drawing.Size(0, 20);
+            this.lblWinner.TabIndex = 4;
+            // 
             // frmRockPaperScissors
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(616, 579);
+            this.Controls.Add(this.lblWinner);
             this.Controls.Add(this.btnPlay);
             this.Controls.Add(this.lblDecisions);
             this.Controls.Add(this.grbCompChoices);
             this.Controls.Add(this.grbUserChoice);
             this.Name = "frmRockPaperScissors";
             this.Text = "Rock Paper Scissors by Jack W";
+            this.Load += new System.EventHandler(this.frmRockPaperScissors_Load);
             this.grbUserChoice.ResumeLayout(false);
             this.grbUserChoice.PerformLayout();
             this.grbCompChoices.ResumeLayout(false);
@@ -184,6 +196,7 @@
         private System.Windows.Forms.RadioButton radCompRock;
         private System.Windows.Forms.Label lblDecisions;
         private System.Windows.Forms.Button btnPlay;
+        private System.Windows.Forms.Label lblWinner;
     }
 }
 
