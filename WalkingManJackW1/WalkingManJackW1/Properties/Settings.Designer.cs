@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace WalkingManJackW.Properties
+namespace WalkingManJackW1.Properties
 {
 
 

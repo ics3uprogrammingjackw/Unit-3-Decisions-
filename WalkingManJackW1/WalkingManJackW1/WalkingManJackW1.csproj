@@ -4,13 +4,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE34249D-3030-4D39-BA3A-FD591AADD5AF}</ProjectGuid>
+    <ProjectGuid>{017D3F1B-A98E-4A09-A92A-68BF4683D524}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WalkingManJackW</RootNamespace>
-    <AssemblyName>WalkingManJackW</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>WalkingManJackW1</RootNamespace>
+    <AssemblyName>WalkingManJackW1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -53,9 +54,6 @@
     </Compile>
     <Compile Include="WalkingMan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="WalkingManForm.resx">
-      <DependentUpon>WalkingManForm.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -66,6 +64,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="WalkingManForm.resx">
+      <DependentUpon>WalkingManForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -80,34 +81,34 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk1.bmp" />
+    <None Include="Properties\Resources\walk1.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk2.bmp" />
+    <None Include="Properties\Resources\walk2.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk3.bmp" />
+    <None Include="Properties\Resources\walk3.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk4.bmp" />
+    <None Include="Properties\Resources\walk4.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk5.bmp" />
+    <None Include="Properties\Resources\walk5.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk6.bmp" />
+    <None Include="Properties\Resources\walk6.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk7.bmp" />
+    <None Include="Properties\Resources\walk7.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk8.bmp" />
+    <None Include="Properties\Resources\walk8.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk9.bmp" />
+    <None Include="Properties\Resources\walk9.bmp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="bin\Debug\walk10.bmp" />
+    <None Include="Properties\Resources\walk10.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

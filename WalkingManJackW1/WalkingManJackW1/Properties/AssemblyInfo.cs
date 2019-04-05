@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WalkingManJackW")]
+[assembly: AssemblyTitle("WalkingManJackW1")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WalkingManJackW")]
+[assembly: AssemblyProduct("WalkingManJackW1")]
 [assembly: AssemblyCopyright("Copyright ©  2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ce34249d-3030-4d39-ba3a-fd591aadd5af")]
+[assembly: Guid("017d3f1b-a98e-4a09-a92a-68bf4683d524")]
 
 // Version information for an assembly consists of the following four values:
 //
